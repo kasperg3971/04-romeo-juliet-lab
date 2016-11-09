@@ -7,7 +7,7 @@
 
 ## Code Along Challenge: Epic Tragedy
 
-You're 16 years old and back in high school English class. Luckily for us, our teacher is kind of lazy and we get to watch the *Romeo and Juliet* movie from the '90s starring Leonardo DiCaprio and Claire Danes.
+Imagine we're in high school English class. Luckily for us, our teacher is kind of lazy and we get to watch the *Romeo and Juliet* movie from the '90s starring Leonardo DiCaprio and Claire Danes.
 
 ![](http://readme-pics.s3.amazonaws.com/RomeoandJuliet5.jpg)
 
@@ -79,6 +79,7 @@ epic_tragedy = {
 
 **Notes:**
 
+* You might feel tempted to copy/paste code from this `README` into your `.rb` files.  **Don't**.  It will be good practice typing the proper hash syntax using `{}` and `=>` and `,`
 * You might notice that we are storing ages as strings. That is because the ages here are not numbers that we need to frequently do math with. If a hash value was a number that we needed to manipulate, then we would store it as an integer. For example, if it was the price of an item that we need to calculate the tax on, then the price would be stored as an integer. Otherwise, it is conventional to store information like a person's age as a string.
 * Remember that the `key: value` syntax is the same as the `:key => value` syntax used above. Get ready to see them both used in different applications and sources.
 
@@ -319,5 +320,3 @@ puts epic_tragedy
 ### Bonus Code Along Challenge
 
 In `lib/bonus.rb` you'll see our completed `epic_tragedy hash`. We're coming to the end of the epic tragedy of Romeo and Juliet. At this point in the story, Romeo and Juliet are—as in every good tragedy—quite dead. Use the above method to change the status of our hero Romeo and our heroine Juliet from "alive" to "dead". These are bonus and if you're feeling comfortable with Hashes, feel free to move forward. Also, to enable these tests make sure to remove the `x` in front of the `it` block in spec/bonus_spec.rb.
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/building-nested-hashes' title='Code Along Exercise: Building Nested Hashes'>Code Along Exercise: Building Nested Hashes</a> on Learn.co and start learning to code for free.</p>
